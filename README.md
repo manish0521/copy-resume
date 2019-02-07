@@ -1,1 +1,1 @@
-# copy-resume
+# resume

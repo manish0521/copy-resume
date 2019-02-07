@@ -1,0 +1,148 @@
+
+*{
+    /* margin: auto; */
+}
+
+
+.top-nav {
+   padding: 20px;
+   height: 50px;
+   color: bisque;
+   position: top;
+   background-image: url("./images/nav-image.png");
+   text-align: center;
+ }
+ span{
+     color:rgb(168, 212, 65);
+ }
+
+.band {
+    padding: 10px;
+    color:rgb(168, 212, 65);
+    background-color: rgb(243, 235, 235);  
+    display: flex;
+    justify-content: center;
+    
+}
+
+#social-media {
+
+    font-size: 24pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    
+}
+#social-media > a{
+    text-decoration:none;
+    color: rgb(104, 164, 184);
+   
+    
+}
+
+.write-up{
+    display:flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.bio{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container {
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: space-evenly;
+ 
+}
+.mytab {
+    display: flex;
+
+}
+.my-skills {
+    text-align: left;
+        
+}
+.work-exp {
+    text-align: left;
+     
+    
+}
+
+.education {
+    text-align: left;
+}
+
+.bottom-container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;  
+    background-color: rgb(196, 139, 64);
+    position: bottom;
+}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+    
+    
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+    
+    
+    }
+}
+
+@media screen and (min-width:501px) and (max-width: 700px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+       
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    .container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+    .container {
+    
+        max-height: 650px;
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width: 901px) {
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
+} 
+ 
+
