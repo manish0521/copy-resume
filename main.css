@@ -47,9 +47,19 @@
 .write-up{
     display:flex;
     text-align: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+#profile{
+    display:flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+   
+  
 }
 
 .bio{
@@ -198,6 +208,16 @@
       max-width: 350px;
       max-height: 1800px;
     }
+
+    #search {
+        background-color: yellow; 
+    }
       
+    #intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    ;
+    }
+
 } 
  
