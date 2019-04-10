@@ -25,11 +25,6 @@ function display(profile) {
     const educationUl = document.querySelector('#education');
     
 
-    
-    // const profileLi = document.createElement('li');
-    // const profileData = document.createElement('ul');
-    // profileLi.appendChild(profileData);
-    // bioUl.appendChild(profileLi);
 
     
 

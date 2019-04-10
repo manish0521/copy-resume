@@ -42,7 +42,7 @@ const intro = {
 
     };
 
-const quotes = ["quote 1","qiote 2" ],
+const quotes = ["quote 1","qiote 2" ];
     
     
     
