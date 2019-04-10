@@ -1,5 +1,5 @@
-{
- "manish" : {
+
+ const manish = {
         "bio" : [
             "Multi-lingual Technical Professional (Nepalese, Hindi, Urdu) | Retired U.S. Army Veteran leveraging a background of driving strategy, direction, and oversight for end-to-end organizational development ranging across public sector and private sector environments, with a particular focus on ensuring quality standards, compliance, policy and procedure adherence. Maintained and oversaw program management across various process, policy, and operational improvements, specializing in implementing and improving global process improvements within the organization. Possess extensive knowledge in composite risk management, training & development, and process improvement. Career supported by specialized military leadership trainings, certifications, Bachelor of Science in Chemistry/Mathematics, and Masters in Public Administration with a concentration in Public Policy."
         
@@ -33,25 +33,17 @@
             "Orthopedic Technician Specialty Course (Dec 2014)",
             "HAZMAT Certified | OSHA Certified"
         ]
-    }
+    };
 
-"intro" : {
-    "name" : "Name: Manish Sing"
-    "email" : "Email: manishsingh21@hotmail.com"
+const intro = {
+    "name" : "Name: Manish Sing",
+    "email" : "Email: manishsingh21@hotmail.com",
     "phone" : "Phone: 3375290150"
 
-    }
+    };
 
-"quotes" : { [
-    "quote 1"
-    ],
-    [
-       "qiote 2" 
-    ]
+const quotes = ["quote 1","qiote 2" ],
     
-}
-
-
-}
+    
     
    
