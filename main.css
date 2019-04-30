@@ -12,7 +12,13 @@
    background-image: url("./images/nav-image.png");
    text-align: center;
    font-size: 20pt;
+  
+ }
+
+ .subscribe >button {
    
+    padding: 5px;
+    margin: 25px;
  }
  
  span{
@@ -24,17 +30,17 @@
     color:rgb(168, 212, 65);
     background-color: rgb(243, 235, 235);  
     display: flex;
-    justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 #social-media {
 
-    font-size: 24pt;
+    font-size: 20pt;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
+    flex-wrap: wrap;
     
 }
 #social-media > a{

@@ -75,6 +75,7 @@ function display(profile) {
 function quotesDisplay () {
     let randomNum = Math.floor(Math.random()) * quotes.length;
     document.getElementById('quote').innerHTML = quotes[randomNum];
+    
 
 
 }

@@ -36,13 +36,13 @@
     };
 
 const intro = {
-    "name" : "Name: Manish Sing",
+    "name" : "Name: Manish Singh",
     "email" : "Email: manishsingh21@hotmail.com",
     "phone" : "Phone: 3375290150"
 
     };
 
-const quotes = ["quote 1","qiote 2" ];
+const quotes = ["Even the impossible says I-M-Possible","qiote 2" ];
     
     
     
