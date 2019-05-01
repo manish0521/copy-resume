@@ -96,3 +96,10 @@ function myIntro () {
        
 }
 
+// function clear(){
+//     const newlist = document.querySelector('#todo-list');
+
+//     while(newlist.hasChildNodes()) {
+//         newlist.removeChild(newlist.firstChild);
+//     }
+// } 

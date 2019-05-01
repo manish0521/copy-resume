@@ -1,24 +1,50 @@
 
-*{
-    /* margin: auto; */
-}
-
 
 .top-nav {
    padding: 1px;
-   margin: 2px;
-   color: bisque;
+   margin: 0px;
+   color: antiquewhite;
    position: top;
    background-image: url("./images/nav-image.png");
    text-align: center;
-   font-size: 20pt;
-  
+   font-size: 12pt;
+  height: 100px;
  }
 
- .subscribe >button {
+ input {
+    font-size: 14px;
+    width: 200px;
+    height: 35px;
+ }
+
+.float{
+     font-size: 12;
+     height: 20px;
+ }
+
+ .float{
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 18px;
+    transition: 0.2s ease all;
+  }
+  
+ 
+ .subscribe {
+    color:black;
+
+ }
+
+ #sub {
    
-    padding: 5px;
-    margin: 25px;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 100%;
+    color:rgb(168, 212, 65);
+    background-color: antiquewhite;
+    height: 25px;
+    width: 65px
  }
  
  span{
@@ -112,6 +138,9 @@
        margin: 1px;
        padding:10px; 
        
+    }
+    input {
+        width: 100px;
     }
     .band {
         
